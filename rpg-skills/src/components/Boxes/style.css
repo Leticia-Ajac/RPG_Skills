@@ -1,0 +1,62 @@
+.smallbox{
+    width: 27.5vw;
+    height: 65vh;
+    max-width: 488px;
+    border-radius: 25px;
+    background-color: #05103A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 60px 10px 35px;
+}
+.smallbox > #img {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 0px 20px 20px
+}
+.smallbox_container {
+    margin: 10px 0 20px;
+}
+.smallbox_container > h1 {
+    font-size: 36px;
+    margin: 10px 20px
+}
+.smallbox_container > p {
+    font-size: 20px;
+    margin: 5px 20px
+}
+
+.mediumbox{
+    width: 40vw;
+    height: 80vh;
+    border-radius: 25px;
+    background-color: #05103A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bigbox{
+    width: 60vw;
+    height: 80vh;
+    border-radius: 25px;
+    background-color: #05103A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bigbox > #b1 {
+    background-color: #101C43;
+    height: 80vh;
+    width: 35%;
+    border-radius: 25px 0 0 25px;
+}
+.bigbox > #b2 {
+    height: 80vh;
+    width: 65%;
+    border-radius: 0 25px 25px 0;
+}

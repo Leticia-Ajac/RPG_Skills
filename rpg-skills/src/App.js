@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 import React from "react";
@@ -17,7 +16,7 @@ function App() {
       <header className="App-header">
         <Router>
           <Routes>
-            <Route path="" element={<Home/>} />
+            <Route path="/" element={<Home/>} />
           </Routes>
         </Router>
       </header>
