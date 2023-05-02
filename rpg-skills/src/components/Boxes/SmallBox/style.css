@@ -19,14 +19,7 @@
 .smallbox_container {
     margin: 10px 0 20px;
 }
-.smallbox_container > h1 {
-    font-size: 36px;
-    margin: 10px 20px
-}
-.smallbox_container > p {
-    font-size: 20px;
-    margin: 5px 20px
-}
+
 
 .mediumbox{
     width: 40vw;

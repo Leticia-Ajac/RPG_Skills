@@ -1,0 +1,21 @@
+.bigbox{
+    width: 60vw;
+    height: 80vh;
+    border-radius: 25px;
+    background-color: #05103A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bigbox > #b1 {
+    background-color: #101C43;
+    height: 80vh;
+    width: 35%;
+    border-radius: 25px 0 0 25px;
+}
+.bigbox > #b2 {
+    height: 80vh;
+    width: 65%;
+    border-radius: 0 25px 25px 0;
+}
