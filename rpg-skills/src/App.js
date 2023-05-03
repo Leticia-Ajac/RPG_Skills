@@ -19,7 +19,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path='/Level1Intro' element={<Level1Intro/>} />
-            <Route path='/Level1Main' element={<Level1Main />} />
+            <Route path='/Level1Intro/Level1Main' element={<Level1Main />} />
           </Routes>
         </Router>
       </header>

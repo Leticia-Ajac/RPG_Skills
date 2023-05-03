@@ -6,8 +6,8 @@ const Title1 = styled('h1')({
 })
 
 const Title2 = styled('h1')({
-    fontSize:"36px",
-    margin:"10px 30px",
+    fontSize:"30px",
+    margin:"30px 30px 10px",
     color:"#FBFDFD"
 })
 

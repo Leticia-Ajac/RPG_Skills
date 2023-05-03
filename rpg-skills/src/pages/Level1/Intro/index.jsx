@@ -5,6 +5,8 @@ import { Title2 } from "../../../components/Texts";
 export default function Level1Intro() {
 
     return(
-        <BigBox level="Level 1" to="Level1Main" />
+        <>
+            <BigBox level="1" to="Level1Main" />
+        </>
     )
 }
