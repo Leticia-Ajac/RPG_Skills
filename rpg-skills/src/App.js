@@ -9,6 +9,7 @@ import {
 
 import Home from './pages/home';
 import Level1Intro from './pages/Level1/Intro';
+import Level1Main from './pages/Level1/Main';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path='/Level1Intro' element={<Level1Intro/>} />
+            <Route path='/Level1Main' element={<Level1Main />} />
           </Routes>
         </Router>
       </header>

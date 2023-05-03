@@ -5,12 +5,24 @@ const Title1 = styled('h1')({
     margin:"10px 20px"
 })
 
-const Describe = styled('p')({
+const Title2 = styled('h1')({
+    fontSize:"36px",
+    margin:"10px 30px",
+    color:"#FBFDFD"
+})
+
+const Describe1 = styled('p')({
     fontSize:"20px",
     margin:"5px 20px"
+})
+const Describe2 = styled('p')({
+    fontSize:"20px",
+    margin:"30px 30px"
 })
 
 export {
     Title1,
-    Describe
+    Title2,
+    Describe1,
+    Describe2
 }
