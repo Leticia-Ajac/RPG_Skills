@@ -1,4 +1,4 @@
-const Skill = require('../models/skills_model')
+const Skill = require("../../models/skills_model")
 
 createSkill = (req, res) => {
     const body = req.body
