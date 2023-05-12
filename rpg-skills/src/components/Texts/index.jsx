@@ -16,8 +16,8 @@ const Describe1 = styled('p')({
     margin:"5px 20px"
 })
 const Describe2 = styled('p')({
-    fontSize:"20px",
-    margin:"30px 30px"
+    fontSize:"13px",
+    margin:"10px 30px"
 })
 
 export {

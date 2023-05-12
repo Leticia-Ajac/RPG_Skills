@@ -1,6 +1,6 @@
 .mainbox{
     width: 75vw;
-    height: 80vh;
+    height: 90vh;
     border-radius: 25px;
     background-color: #05103A;
     display: flex;
@@ -10,7 +10,7 @@
 
 .mainbox > #b1 {
     background-color: #101C43;
-    height: 80vh;
+    height: 90vh;
     width: 30%;
     border-radius: 25px 0 0 25px;
     flex-direction: column;
@@ -18,7 +18,7 @@
     padding: 0px 20px;
 }
 .mainbox > #b2 {
-    height: 80vh;
+    height: 90vh;
     width: 70%;
     border-radius: 0 25px 25px 0;
     flex-direction: column;

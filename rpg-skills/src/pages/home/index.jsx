@@ -12,7 +12,7 @@ export default function Home(){
             title='Skills'
             describe="Loren impsun ka a hsh adasha dakajs d djjsahdahs dhafshf sadhsdahduas ahahsahsa isabela"
             >
-            <Button1 onClick={navegate} to="/Level1Intro" >
+            <Button1 onClick={navegate} to="/Level1Main " >
                 Start
             </Button1>
         </SmallBox>
