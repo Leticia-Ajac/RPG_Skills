@@ -1,4 +1,6 @@
 import MainBox from "../../../components/Boxes/MainBox";
+import businessCat from '../gatinho_negocios.png'
+import lvImageTwo from '../nivel_2.png'
 
 export default function Level2Main() {
 
@@ -7,11 +9,13 @@ export default function Level2Main() {
         <MainBox
             name="Gustavo"
             level="2"
+            image= {businessCat}
+            lvimage={lvImageTwo}
             rightOption = "option_2"
             to="/Level3Main"
-            selectBtnOne = "Eu mudo suas tarefas e tento conversar com ele para entender sua satisfação com seu cargo atual. Logo será possível compreender se há algo relacionado com desmotivação, mas claro, não falaria nada em relação ao desempenho baixo, não quero fazer nada para magoá-lo em nenhum sentido"
-            selectBtnTwo = "Eu prefiro ficar mais quieto, pelo menos por enquanto, não quero arranjar brigas com uma equipe que eu acabei de chegar. Além de muito provavelmente prejudicar minha amizade também irá passar uma imagem negativa para o restante da minha equipe, o que não é o objetivo"
-            selectBtnThree = "Eu seria franco com ele, abordaria sobre desempenho baixo e também questões relacionadas a necessidade evidente de separação da vida profissional com o pessoal, explicando o impacto de tal fato no cotidiano da equipe"
+            selectBtnOne = "Se apresenta para sua equipe, é sincero sobre a situação inicial de desconhecimento, mas se mostra disposto a tentar fazer de tudo para agregar valor à empresa, confortando assim os seus funcionários "
+            selectBtnTwo = "Eu busco de todas as formas possíveis adquirir todo o conhecimento necessário para atuar da melhor maneira possível em minha área. Assim terei mais clareza ao montar o escopo do projeto e direcionar as tarefas entre a equipe "
+            selectBtnThree = "Eu finjo estar totalmente a par do assunto, pois minha equipe precisa visualizar eu como um líder experiente que possui mais conhecimento do que os demais e, portanto, admitir ingenuidade só faria com que meus liderados não me enxergassem como uma referência."
             >
                 <p>
                 Durante suas primeiras semanas de trabalho, você notou que existiam uma série de situações que precisavam ser resolvidas, era uma época de muita mudança e conflito na empresa, visto a grande fusão com sua empresa parceira, o Banco Original. 

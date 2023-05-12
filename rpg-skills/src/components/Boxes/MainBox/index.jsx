@@ -8,7 +8,10 @@ export default function MainBox(props){
     return(
         <div className='mainbox'>
             <section id='b1'>
-                <Title2 id="element">{props.name}</Title2>
+                <Title2 id="element">{props.name} - Lv.{props.level}</Title2>
+                
+                <img className="lvImage" src={props.lvimage}/>
+                <img className="catImage" src={props.image}/>
             </section>
             <section id='b2'>
                 <Title2 id="element" >Level {props.level}</Title2>

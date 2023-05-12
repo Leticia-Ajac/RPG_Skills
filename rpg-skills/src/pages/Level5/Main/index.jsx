@@ -1,4 +1,7 @@
 import MainBox from "../../../components/Boxes/MainBox";
+import devCat from '../gato_programa.png'
+import lvImageFive from '../nivel_5.png'
+
 
 export default function Level5Main() {
 
@@ -7,6 +10,8 @@ export default function Level5Main() {
         <MainBox
             name="Gustavo"
             level="5"
+            image= {devCat}
+            lvimage={lvImageFive}
             rightOption = "option_3"
             to="/Level5Main"
             selectBtnOne = "Eu peço para um dos desenvolvedores da minha equipe começar a aprender programação em Java pra ontem! Onde já se viu um profissional que não mude constantemente de área para novos desafios? Com certeza é algo de 20 minutos "

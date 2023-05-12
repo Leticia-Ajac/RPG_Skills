@@ -1,4 +1,6 @@
 import MainBox from "../../../components/Boxes/MainBox";
+import lazyCat from '../gato_preguicoso.png'
+import lvImageThree from '../nivel_3.png'
 
 export default function Level3Main() {
 
@@ -7,6 +9,8 @@ export default function Level3Main() {
         <MainBox
             name="Gustavo"
             level="3"
+            image= {lazyCat}
+            lvimage={lvImageThree}
             rightOption = "option_3"
             to="/Level4Main"
             selectBtnOne = "Eu mudo suas tarefas e tento conversar com ele para entender sua satisfação com seu cargo atual. Logo será possível compreender se há algo relacionado com desmotivação, mas claro, não falaria nada em relação ao desempenho baixo, não quero fazer nada para magoá-lo em nenhum sentido"

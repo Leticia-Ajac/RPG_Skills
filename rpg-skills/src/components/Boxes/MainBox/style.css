@@ -25,6 +25,19 @@
     justify-content: flex-start;
     padding: 20px 20px 0 40px;
 }
+
+.catImage {
+    width: auto;
+    height: 45vh;
+
+}
+
+.lvImage {
+    width: auto;
+    height: 30vh;
+    margin-bottom: 20px;
+}
+
 #element {
     margin-left: auto;
     text-align: start;

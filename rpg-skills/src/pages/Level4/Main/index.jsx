@@ -1,4 +1,6 @@
 import MainBox from "../../../components/Boxes/MainBox";
+import bugCat from '../gato bugado.jpg'
+import lvImageFour from '../nivel_4.png'
 
 export default function Level3Main() {
 
@@ -7,6 +9,8 @@ export default function Level3Main() {
         <MainBox
             name="Gustavo"
             level="4"
+            image= {bugCat}
+            lvimage={lvImageFour}
             rightOption = "option_1"
             to="/Level5Main"
             selectBtnOne = "Eu decido seguir em uma solução criativa, um vídeo! Assim solicitarei para minha equipe as melhores pessoas em inglês, garantindo um entendimento claro por parte dos estadunidenses da outra empresa e também tornando possível a melhor compreensão do problema (ao mostrá-lo dentro do aplicativo)"
