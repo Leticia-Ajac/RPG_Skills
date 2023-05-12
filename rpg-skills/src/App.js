@@ -10,6 +10,10 @@ import {
 import Home from './pages/home';
 import Level1Intro from './pages/Level1/Intro';
 import Level1Main from './pages/Level1/Main';
+import Level2Main from './pages/Level2/Main';
+import Level3Main from './pages/Level3/Main';
+import Level4Main from './pages/Level4/Main';
+import Level5Main from './pages/Level5/Main';
 
 function App() {
   return (
@@ -20,6 +24,10 @@ function App() {
             <Route path="/" element={<Home/>} />
             <Route path='/Level1Intro' element={<Level1Intro/>} />
             <Route path='/Level1Main' element={<Level1Main />} />
+            <Route path='/Level2Main' element={<Level2Main />} />
+            <Route path='/Level3Main' element={<Level3Main />} />
+            <Route path='/Level4Main' element={<Level4Main />} />
+            <Route path='/Level5Main' element={<Level5Main />} />
           </Routes>
         </Router>
       </header>

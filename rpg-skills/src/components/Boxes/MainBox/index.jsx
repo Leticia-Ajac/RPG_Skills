@@ -17,7 +17,7 @@ export default function MainBox(props){
                 </Describe2>
                 <BtnOptionNotSelectedCompontent 
                     onClick={navegate} 
-                    rightOption='option_2'
+                    rightOption={props.rightOption}
                     optionOne = {props.selectBtnOne}
                     optionTwo = {props.selectBtnTwo}
                     optionThree = {props.selectBtnThree}
