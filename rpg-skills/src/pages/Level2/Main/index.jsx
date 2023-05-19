@@ -7,8 +7,8 @@ export default function Level2Main() {
     return(
         <>
         <MainBox
-            name="Gustavo"
-            level="2"x
+            name="ScarpaCat"
+            level="2"
             image= {businessCat}
             lvimage={lvImageTwo}
             rightOption = "option_2"

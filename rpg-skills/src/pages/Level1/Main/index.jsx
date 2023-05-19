@@ -7,7 +7,7 @@ export default function Level1Main() {
     return(
         <>
         <MainBox
-            name="Gustavo"
+            name="ScarpaCat"
             level="1"
             image= {firstDay}
             lvimage={lvImageOne}
@@ -19,7 +19,7 @@ export default function Level1Main() {
             >
                 <p>Em uma manhã de segunda feira, lá estava você estava subindo as escadas do edifício de São Paulo da fintech mais conhecida do país, o PicPay. Contratado recentemente. Era seu primeiro dia de trabalho como novo PM da BU de Crypto.  
                 <br/><br/>
-                Ao chegar lá, você descobriu que o seu TM era um antigo melhor amigo de infância que você não encontrava há séculos! Mas logo na primeira semana, um grande problema aconteceu. Você descobriu que ele acabou ultrapassando dos limites e decidiu tomar decisões estratégicas relacionadas ao produto sozinho, com o intuito de melhorar a agilidade de seus dev’s. A grande questão é muito amiga dele, porém esta atitude acabou gerando graves consequências negativas no produto </p>
+                Ao chegar lá, você descobriu que o seu TM era um antigo melhor amigo de infância que você não encontrava há séculos! Mas logo na primeira semana, um grande problema aconteceu. Você descobriu que ele acabou ultrapassando dos limites e decidiu tomar decisões estratégicas relacionadas ao produto sozinho, com o intuito de melhorar a agilidade de seus dev’s. A grande questão é que você é muito amigo dele, porém esta atitude acabou gerando graves consequências negativas no produto </p>
             </MainBox>
         </>
     )

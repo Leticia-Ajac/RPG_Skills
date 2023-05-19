@@ -7,7 +7,7 @@ export default function Level3Main() {
     return(
         <>
         <MainBox
-            name="Gustavo"
+            name="ScarpaCat"
             level="3"
             image= {fallCat}
             lvimage={lvImageThree}

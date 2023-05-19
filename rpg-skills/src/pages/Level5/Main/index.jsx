@@ -8,7 +8,7 @@ export default function Level5Main() {
     return(
         <>
         <MainBox
-            name="Gustavo"
+            name="ScarpaCat"
             level="5"
             image= {devCat}
             lvimage={lvImageFive}
