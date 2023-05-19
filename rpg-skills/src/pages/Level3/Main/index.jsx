@@ -1,5 +1,5 @@
 import MainBox from "../../../components/Boxes/MainBox";
-import lazyCat from '../gato_preguicoso.png'
+import fallCat from '../gato_caindo.jpg'
 import lvImageThree from '../nivel_3.png'
 
 export default function Level3Main() {
@@ -9,18 +9,17 @@ export default function Level3Main() {
         <MainBox
             name="Gustavo"
             level="3"
-            image= {lazyCat}
+            image= {fallCat}
             lvimage={lvImageThree}
-            rightOption = "option_3"
+            rightOption = "option_2"
             to="/Level4Main"
-            selectBtnOne = "Eu mudo suas tarefas e tento conversar com ele para entender sua satisfação com seu cargo atual. Logo será possível compreender se há algo relacionado com desmotivação, mas claro, não falaria nada em relação ao desempenho baixo, não quero fazer nada para magoá-lo em nenhum sentido"
-            selectBtnTwo = "Eu prefiro ficar mais quieto, pelo menos por enquanto, não quero arranjar brigas com uma equipe que eu acabei de chegar. Além de muito provavelmente prejudicar minha amizade também irá passar uma imagem negativa para o restante da minha equipe, o que não é o objetivo"
-            selectBtnThree = "Eu seria franco com ele, abordaria sobre desempenho baixo e também questões relacionadas a necessidade evidente de separação da vida profissional com o pessoal, explicando o impacto de tal fato no cotidiano da equipe"
+            selectBtnOne = "Como ele demonstra ser o stakeholder mais próximo e também o que possui mais conhecimento sobre o assunto, você segue líder de Growth, buscando produzir um resultado acima do esperado "
+            selectBtnTwo = "Por conta de outros backlogs que já estavam mapeados e priorizados, eu decido não seguir com o plano do líder de Growth, mesmo que ele seja um dos stakeholders com maior interação com o projeto."
+            selectBtnThree = "Você vai pela sua opinião, como o produto é seu, acredita que se basear em outras opiniões só acabará te deixando mais confuso. Como PM é seu dever decidir o caminho que produto seguirá no futuro, inclusive como o backlog será feito"
             >
                 <p>
-                Além disso, existia outro impedimento para o trabalho. No começo era tudo ótimo e você estava totalmente animado com esta oportunidade, ainda mais ao saber que seu antigo amigo está trabalhando na sua equipe e estaria sob sua gestão por um tempo, com intuito de adquirir mais experiências entre as áreas. 
-                <br/><br/>
-                Porém, quando o período de trabalho começou, você percebeu que seu conhecido estava se aproveitando da sua amizade como uma garantia para não fazer o trabalho de forma correta. Você, não sabendo muito o que dizer ou como abordá-lo, acabava “empurrando a situação”, porém só piorava ao decorrer do tempo. </p>
+                Neste momento, A BU de Crypto está trabalhando no lançamento de uma nova feature: a central de alerta de preços. Porém logo toda a sua animação vai por água abaixo, pois você se depara com um grande desafio pela frente. Ao alinhar com seu GPM sobre o projeto, ele relatou que a parte mais importante era o alerta por meio de notificação. Porém, em contato com o líder Growth como seu principal ponto de apoio, possui uma opinião diferente. Para ele, somente um push de aviso ficaria uma “experiência quebrada”, o melhor a se fazer seria fazer um hub inteiro de notícias, para que o user pudesse explorar e entender os acontecimentos do mercado financeiro. Algo que agregaria valor não somente para Crypto, mas também para a área de investimentos. Visto este cenário, você decide: 
+                </p>
             </MainBox>
         </>
     )

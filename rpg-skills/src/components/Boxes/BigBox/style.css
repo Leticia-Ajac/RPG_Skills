@@ -1,17 +1,26 @@
 .bigbox{
     width: 50vw;
-    height: 70vh;
+    height: 90vh;
     border-radius: 25px;
     background-color: #05103A;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: start;
+    text-align: center;
 }
+.bigbox > p {
+    font-size: 18px;
+    width: 40vw;
+}
+
 #title {
-    margin-right: auto;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 0;
+    height: 7vh;
 }
 #button {
-    margin-left: auto;
+    margin: auto;
+    font-size: 15px;
 }

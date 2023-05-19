@@ -3,7 +3,7 @@ import firstDay from '../first_day.jpg'
 import lvImageOne from '../nivel_1.png'
 
 export default function Level1Main() {
-
+    
     return(
         <>
         <MainBox
@@ -13,13 +13,13 @@ export default function Level1Main() {
             lvimage={lvImageOne}
             rightOption = "option_3"
             to="/Level2Main"
-            selectBtnOne = "Vai cumprimentar um amigo que há muito tempo não via, do lado oposto à sua equipe atual, já que queria muito falar com ele, depois você fala com sua equipe"
-            selectBtnTwo = "Manda um slack para a única pessoa da área que já teve um mínimo contato por mensagem, pedindo para que ela seja responsável pelo gerenciamento do time hoje, pois está inseguro sobre tomar novas iniciativas com o time, por conta da falta de conhecimento e despreparação frente à um ambiente totalmente novo"
-            selectBtnThree = "Se apresenta para sua equipe, é sincero sobre a situação inicial de desconhecimento, mas se mostra disposto a tentar fazer de tudo para agregar valor à empresa, confortando assim os seus funcionários"
+            selectBtnOne = "Como eu ainda não tenho muito conhecimento de como funciona a empresa e se este comportamento é algo normal aqui. Decido primeiro entender melhor o que aconteceu através de relatos de outras pessoas envolvidas no time dele sobre o caso. "
+            selectBtnTwo = "Por enquanto, prefiro continuar quieto. Utilizar do famoso “fingir que não vi” somente para observar mais o comportamento dele nas próximas decisões, mesmo que seja uma situação crítica por agora, estou disposta a ver até onde a situação vai para entregá-lo ao meu superior no momento certo. "
+            selectBtnThree = "Eu seria franco com ele, abordaria sobre a decisão que ele tomou relacionado ao produto sem minha aprovação, ressaltando que este tipo de decisão não era de sua competência. Além disso, também explicaria todas as consequências que aquela ação causou em diversas etapas da jornada do usuário"
             >
-                <p>Em uma manhã de segunda feira, lá estava você estava subindo as escadas com o objetivo de chegar até o terceiro andar do edifício de São Paulo da fintech mais conhecida do país, o PicPay. Contratado recentemente, Gustavo enfrentava seu primeiro dia de trabalho como novo PM da BU de Crypto, um grande desafio, visto também que era um negócio recente da empresa que se encontrava em ascensão. <br /><br />
-
-                Ao chegar lá, você se depara com várias pessoas diferentes, porém você também possui diversas coisas que precisa resolver durante esta nova jornada, o que você faz primeiro? </p>
+                <p>Em uma manhã de segunda feira, lá estava você estava subindo as escadas do edifício de São Paulo da fintech mais conhecida do país, o PicPay. Contratado recentemente. Era seu primeiro dia de trabalho como novo PM da BU de Crypto.  
+                <br/><br/>
+                Ao chegar lá, você descobriu que o seu TM era um antigo melhor amigo de infância que você não encontrava há séculos! Mas logo na primeira semana, um grande problema aconteceu. Você descobriu que ele acabou ultrapassando dos limites e decidiu tomar decisões estratégicas relacionadas ao produto sozinho, com o intuito de melhorar a agilidade de seus dev’s. A grande questão é muito amiga dele, porém esta atitude acabou gerando graves consequências negativas no produto </p>
             </MainBox>
         </>
     )

@@ -16,11 +16,18 @@ export default function BtnOptionNotSelectedCompontent(props){
         display: showContinue,
     })
 
-    function acertar(e) {if (toSelected) {
+    function acertar(e) {
+        let pontos = localStorage.getItem('rightOptions')
+
+        if (toSelected) {
         console.log(e.target.value)
         e.target.style = 'border: 3px solid #fff'
 
         if (e.target.id == acertou)  {
+            pontos = parseInt(pontos) + 1
+
+            localStorage.setItem('rightOptions', pontos)
+
             if (e.target.id == 'option_1') {
                 setBotao_1('selectBtnCerto')
                 setBotao_2('selectBtnErrado')
