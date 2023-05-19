@@ -8,12 +8,12 @@ export default function Level2Main() {
         <>
         <MainBox
             name="Gustavo"
-            level="2"
+            level="2"x
             image= {businessCat}
             lvimage={lvImageTwo}
             rightOption = "option_2"
             to="/Level3Main"
-            selectBtnOne = "Se apresenta para sua equipe, é sincero sobre a situação inicial de desconhecimento, mas se mostra disposto a tentar fazer de tudo para agregar valor à empresa, confortando assim os seus funcionários "
+            selectBtnOne = "Eu me mantenho calmo e confortável com a situação. Como seria algo totalmente novo e tomaria 100% do meu dia, levarei o aprendizado como algo cotidiano, sem nenhuma necessidade de buscar conhecimentos ou mesmo perguntar a alguém sobre. Todas as respostas vão vir para mim em algum momento."
             selectBtnTwo = "Eu busco de todas as formas possíveis adquirir todo o conhecimento necessário para atuar da melhor maneira possível em minha área. Assim terei mais clareza ao montar o escopo do projeto e direcionar as tarefas entre a equipe "
             selectBtnThree = "Eu finjo estar totalmente a par do assunto, pois minha equipe precisa visualizar eu como um líder experiente que possui mais conhecimento do que os demais e, portanto, admitir ingenuidade só faria com que meus liderados não me enxergassem como uma referência."
             >

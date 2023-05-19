@@ -10,7 +10,7 @@ export default function Home(){
             <SmallBox 
             src="../../assets/fausto.png" 
             title='Skills'
-            describe="Loren impsun ka a hsh adasha dakajs d djjsahdahs dhafshf sadhsdahduas ahahsahsa isabela"
+            describe="Este é Gustavo Scarpacat, ajude ele nessa jornada"
             >
             <Button1 onClick={navegate} to="/Level1Main " >
                 Start

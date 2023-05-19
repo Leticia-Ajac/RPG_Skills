@@ -20,6 +20,10 @@
     margin: 10px 0 20px;
 }
 
+.catimg {
+    width: auto;
+    height: 30vh;
+}
 
 .mediumbox{
     width: 40vw;
